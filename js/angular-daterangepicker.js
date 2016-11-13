@@ -138,7 +138,7 @@
               var newEndDate, newStartDate;
               newStartDate = picker.startDate;
               newEndDate = picker.endDate;
-              return $scope.model = opts.singleDatePicker ? start : {
+              return $scope.model = opts.singleDatePicker ? newStartDate : {
                 startDate: newStartDate,
                 endDate: newEndDate
               };
